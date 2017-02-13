@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+               <include
+                   android:id="@+id/laySection1"
+                   layout="@layout/cell_home_page"
+                   android:layout_height="match_parent"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="20dp"/>
+
+               <include
+                   android:id="@+id/laySection2"
+                   layout="@layout/cell_home_page"
+                   android:layout_height="match_parent"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="20dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <include
+                    android:id="@+id/laySection3"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <include
+                    android:id="@+id/laySection4"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    />
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:padding="20dp"-->
+                <!--android:text="efsdf"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/box"-->
+                <!--/>-->
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:padding="20dp"-->
+                <!--android:text="efsdf"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/box"-->
+                <!--android:layout_gravity="left|top" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <include
+                    android:id="@+id/laySection5"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <include
+                    android:id="@+id/laySection6"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <include
+                    android:id="@+id/laySection7"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <include
+                    android:id="@+id/laySection8"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <include
+                    android:id="@+id/laySection9"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <include
+                    android:id="@+id/laySection10"
+                    layout="@layout/cell_home_page"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="20dp"/>
+
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by eCom-Street"
+                android:textColor="#006B9F"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

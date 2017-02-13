@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="txtSignUp">Don\'t have an account? Sign Up</string>
+    <string name="registration">Registration</string>
+    <string name="title_activity_login_temp">Sign in</string>
+    <string name="login">Login</string>
+    <string name="loginView">Have an account? Login</string>
+    <string name="txtNotificationView">Send me Notifications for events and news</string>
+    <string name="txtMemberView">Are you a member ?</string>
+    <string name="edtEmail">Email</string>
+    <string name="btnlogin">Login</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="txtPrivacyPolicy">Privacy Policy</string>
+    <string name="edtFirstName">First Name</string>
+    <string name="edtLastName">Last Name</string>
+    <string name="edtPassword">Password</string>
+    <string name="txtShowPassword">Show Password</string>
+    <string name="edtCompany">Company</string>
+    <string name="edtPhone">Phone</string>
+    <string name="radYesMember">Yes</string>
+    <string name="radNoMember">No</string>
+    <string name="radYesNotification">Yes</string>
+    <string name="radNoNotification">No</string>
+</resources>

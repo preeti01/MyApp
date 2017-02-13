@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="10dp">
+
+        <EditText
+            android:id="@+id/edtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/edtFirstName"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/edtLastName"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edtEmail_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/edtEmail"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/edtPassword"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/txtShowPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:text="@string/txtShowPassword"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/edtCompany"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/edtPhone"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txtMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="@string/txtMemberView"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radYesMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radYesMember"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radNoMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radNoMember"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtNotificationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="@string/txtNotificationView"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/radYesNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radYesNotification"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radNoNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radNoNotification" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtPrivacyPolicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:padding="10dp"
+            android:text="@string/txtPrivacyPolicy"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/btnSignUp"
+            android:textColor="@color/white">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txtLoginView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="10dp"
+            android:text="@string/loginView"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+</ScrollView>
